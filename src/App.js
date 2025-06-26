@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import SingleCard from './components/SingleCard';
-
 const sourceCard = [
   {"src": '/img/helmet-1.png', matched: false},
   {"src": '/img/potion-1.png', matched: false},
