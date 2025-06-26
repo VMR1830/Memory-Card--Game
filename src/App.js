@@ -11,7 +11,6 @@ const sourceCard = [
   {"src": '/img/sword-1.png', matched: false}
 ]
 
-
 function App() {
   const [ cards, setCards] = useState([]);
   const [turns, setTurns] = useState(0);
@@ -31,7 +30,6 @@ function App() {
   const handleChoice = (card)=>{
       choiceOne ? setChoiceTwo(card):setChoiceOne(card);
   }
-
   useEffect(()=>{
     if(choiceOne && choiceTwo){
       setDisabled(true);
